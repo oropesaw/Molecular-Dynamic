@@ -12,7 +12,7 @@ Development code of our program
 */
 pclose(pipe);
 ```
-This form of call can be used in a ```window```, provided that the compilation of the code is done through a console (```gnuplot``` and ```gcc```) must be environment variables.
+This form of call can be used in a ```window```, provided that the compilation of the code is done through a console (```gnuplot``` and ```gcc``` must be environment variables).
 
 ```c
 /*
