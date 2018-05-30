@@ -18,14 +18,14 @@ This form of call can be used in a ```window```, provided that the compilation o
 /*
 Print that allows to visualize the evolution of the system.
 Keyword Arguments:
-sys: class_system * (sistema de particulas).
+sys: class_system * (particle system).
 gnuplot: ----> environment variable (Window).
          ----> object FILE * (Linux).
 */
 void printer_system(class_system *sys, FILE *gnuplot){
     int i;
    
-    fprintf(gnuplot, "set title '{/=20 Modelo de Gas, pass %d}'\n", sys->accountant);
+    fprintf(gnuplot, "set title '{/=20 Gas Model, pass %d}'\n", sys->accountant);
     fprintf(gnuplot, "set xlabel  '{/=15 X}'\n");  
     fprintf(gnuplot, "set zlabel  '{/=15 Z}'\n");
     fprintf(gnuplot, "set ylabel  '{/=15 Y}'\n");
