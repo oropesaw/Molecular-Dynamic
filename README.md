@@ -16,7 +16,7 @@ This form of call can be used in a ```window```, provided that the compilation o
 
 ```c
 /*
-Impresión que permite visualizar la evolución del sistema.
+Print that allows to visualize the evolution of the system.
 Keyword Arguments:
 sys: class_system * (sistema de particulas).
 gnuplot: ----> environment variable (Window).
