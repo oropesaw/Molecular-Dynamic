@@ -5,9 +5,10 @@ This code can be used for the study of classical gases with weak interaction (Va
 The compilation of the codes ```c ``` is very simple, we simply use:
 
 ```
-gcc -D MOVE input.c -o output.out -lm
+gcc input.c -o output.out -lm
 ./output.out
 ```
+
 #### Pipe in gnuplot
 
 In ```linux``` you can call ```gnuplot``` from your ```c``` code as follows:
