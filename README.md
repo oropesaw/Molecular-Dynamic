@@ -1,5 +1,5 @@
 # Molecular-Dynamic
-
+This code can be used for the study of classical gases with weak interaction (Van der Waals). The evolution of the system is done by the ```Speed Verlet algorithm```.
 #### Pipe in gnuplot
 
 In ```linux``` you can call ```gnuplot``` from your ```c``` code as follows:
